@@ -1,0 +1,103 @@
+@import url('https://fonts.cdnfonts.com/css/berlin-sans-fb-demi');
+
+*{
+    font-family: 'Berlin Sans FB Demi', sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    //justify-content: space-between;
+}
+
+.button {
+    border: 1px solid black;
+    background: lightskyblue;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 10px;
+    justify-content: end;
+}
+
+nav .logo{
+    width: 200px;
+}
+
+.gora{
+    background-color: rgb(84, 53, 156);
+    height: auto;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 50px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.srodek{
+    background-color: rgb(37, 0, 78);
+    height: auto;
+    margin-top: auto;
+}
+
+.srodek1{
+    font-size: 4em;
+    margin-bottom: 10px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
+
+.srodek2 img{
+    width: 700px;
+    height: 400px;
+    margin-left: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.srodek3{
+    font-size: 3em;
+    margin-right: 150px;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.dol{
+    background-color: rgb(12, 0, 26);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.dol ul li{
+    margin-left: 40px;
+    margin-right: 50px;
+    font-size: 30px;
+    list-style-type: none;
+}
+
+.mapa{
+    margin-left: 60px;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black"
+}
+
+.dol1{
+    margin-right: 300px;
+}
