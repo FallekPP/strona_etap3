@@ -13,14 +13,22 @@ nav{
     //justify-content: space-between;
 }
 
+.gora2{
+    text-align: center;
+    display: flex;
+    
+}
+
 .button {
     border: 1px solid black;
     background: lightskyblue;
     text-align: center;
     cursor: pointer;
     user-select: none;
-    margin-left: 10px;
+    margin-left: 10cm;
     justify-content: end;
+    
+    
 }
 
 nav .logo{
