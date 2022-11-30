@@ -1,6 +1,6 @@
 function createButtons(btn, lines) {
 	const nav = document.querySelector('nav')
-	const width = 50/lines.length
+	const width = 20/lines.length
 	let btns = ""
 	for(let i=0;i<lines.length;i++) {
 		const data = lines[i].split(';')
